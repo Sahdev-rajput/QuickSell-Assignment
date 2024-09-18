@@ -20,8 +20,8 @@ const Navbar = ({ setGrouping, setOrdering }) => {
   return (
     <nav className="navbar">
       <div className="display-btn" onClick={toggleDropdown}>
-      <img src={Display}></img>
-        Display
+      <img src={Display} style={{ marginRight: '2px' }} alt="display-icon" />
+      Display
       </div>
       <div className={`nav-dropdown-content ${isDropdownVisible ? 'show' : ''}`}>
         <p>

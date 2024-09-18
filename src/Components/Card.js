@@ -13,7 +13,6 @@ const Card = ({ ticket, user }) => {
           <div className="profile-initials" style={{ backgroundColor: getColorForUser(user.name) }}>
             {firstNameInitial}
           </div>
-          <span className="user-name">{user?.name}</span>
         </div>
       </div>
       <h1 className="card-title">{title}</h1>
